@@ -1,7 +1,8 @@
 package com.tcs.project.api.jpa;
+import org.springframework.data.jpa.repository.JpaRepository;
 
-import org.springframework.data.jpa.repository.config.JpaRepositoryConfigExtension;
+import com.tcs.project.api.domain.Orden;
 
-public class OrdenRepository extends JpaRepository{
+public interface OrdenRepository extends JpaRepository<Orden, Long>{
 
 }
